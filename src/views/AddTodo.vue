@@ -11,7 +11,6 @@ const handleSubmit = () => {
   task.value = { id: null, name: '', from: '', to: '', isCompleted: false }
 }
 </script>
-
 <template>
   <div class="control-tasks">
     <div class="title">

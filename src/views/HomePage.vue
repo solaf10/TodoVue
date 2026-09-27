@@ -4,7 +4,7 @@
       <p>Manage Products</p>
       <router-link to="/add" class="btn">+ Add product</router-link>
     </header>
-    <table>
+    <table v-if="todoList.length">
       <thead>
         <tr>
           <th>#</th>
@@ -29,6 +29,7 @@
         />
       </tbody>
     </table>
+    <p v-else style="text-align: center; line-height: 15">You haven't added any tasks yet!!</p>
   </div>
 </template>
 <script setup>
