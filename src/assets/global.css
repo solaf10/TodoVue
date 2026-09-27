@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+:root {
+  --primary-color: #1d322fb2;
+  --primary-font: #202224;
+  --primary-bg: #f5f6fa;
+}
+ul {
+  list-style: none;
+}
+.btn {
+  width: 124px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border: none;
+  background-color: var(--primary-color);
+  transition: 0.5s;
+}
+.btn:hover {
+  box-shadow:
+    rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
